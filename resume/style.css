@@ -1,3 +1,5 @@
+<!styles for my resume>
+
 BODY {
   font-family: 'Open Sans', arial, sans-serif;
   font-size: 1em;
@@ -5,6 +7,7 @@ BODY {
   font-weight:400;
 }
 
+<!banner name>
 h1 {
   font-size: 3em;
   text-transform:uppercase;
@@ -12,12 +15,14 @@ h1 {
   color:#33485e;
 }
 
+<!section titles>
 strong{
   color:#33485e:
   text-transform:uppercase;
   font-size: 1.5em;
 }
 
+<!job titles>
 h2 {
   font-size: 1.5em;
   text-transform:uppercase;
@@ -25,11 +30,13 @@ h2 {
   color:#fff;
 }
 
+<!job organization>
 h3{
   font-weight:600;
   font-size: 1.5em;
 }
 
+<!job dates>
 h4{
   font-weight:400;
   font-size: 1.5em;
