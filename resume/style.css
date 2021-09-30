@@ -87,6 +87,11 @@ h3{
   padding-right: 0;
   text-align: center;
 }
+
+.menu >li{
+  diplay: inline;
+}
+
 ●{
   font-size: 1em;
 }
