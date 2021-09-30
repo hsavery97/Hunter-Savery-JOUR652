@@ -58,10 +58,14 @@ h3{
   font-size: 1.25em;
 }
 
-h5{
+.date{
   font-weight: 400;
   font-style: italic;
   font-size: 1em;
+  margin-top: 2px;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 ●{
