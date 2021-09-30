@@ -3,8 +3,8 @@
 BODY {
   font-family: 'Open Sans', arial, sans-serif;
   font-size: 1em;
-  color:#444;
-  font-weight:400;
+  color: #444;
+  font-weight: 400;
 }
 
 
@@ -12,44 +12,44 @@ BODY {
 <!banner name>
 #name {
   font-size: 3em;
-  text-transform:uppercase;
-  text-align:center;
+  text-transform: uppercase;
+  text-align: center;
   color:#33485e;
   border-bottom: : 1px solid #33485e;
   width:60%;
   min-width: 300px;
-  margin:0 auto; 
+  margin:0 auto;
 }
 
 <!section titles>
 strong{
   color:#33485e:
-  text-transform:uppercase;
+  text-transform: uppercase;
   font-size: 1.5em;
 }
 
 <!job titles>
 h2 {
   font-size: 1.5em;
-  text-transform:uppercase;
+  text-transform: uppercase;
   background-color: #33485e;
-  color:#fff;
+  color: #fff;
 }
 
 <!job organization>
 h3{
-  font-weight:600;
+  font-weight: 600;
   font-size: 1.5em;
 }
 
 <!job dates>
 h4{
-  font-weight:400;
+  font-weight: 400;
   font-size: 1.5em;
 }
 
 h5{
-  font-weight:400;
+  font-weight: 400;
   font-style: italic;
   font-size: 1em;
 }
