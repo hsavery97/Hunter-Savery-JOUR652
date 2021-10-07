@@ -1,3 +1,7 @@
 div.col-md-6{
   align-items: :center
 }
+
+div.col-md-4{
+  align-items: center;
+}
