@@ -21,6 +21,8 @@ h3{
 .btn{
 
   font-family: 'Special Elite', cursive;
+
+  padding-top: 20px;
 }
 
 @media only screen and (max-width: 500px) {
