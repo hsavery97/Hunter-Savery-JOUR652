@@ -4,9 +4,21 @@
 
 }
 
-img{
-max-width: 20px;
-max-height: 20px;
+.Masthead{
 align: center;
 
+}
+
+.headline{
+  font-family: Georgia, Times, serif;
+}
+
+p{
+  font-family: Georgia, Times, serif;
+}
+
+.body-images{
+  max-width: 300px:
+  max-height: 300px;
+  margin: 30;
 }
