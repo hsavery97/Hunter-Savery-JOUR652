@@ -15,9 +15,15 @@ p{
   font-size: 12px;
 }
 
+h3{
+  margin: 0 auto;
+  text-align:center;
+}
+
 .Masthead{
   margin: 0 auto;
   width:100%;
+  padding:0;
 }
 
 #story{
@@ -25,14 +31,47 @@ p{
   width: 1000px;
 
 }
+/*This is for the body imgaes*/
 
 .body-image{
-margin: 0 auto;
-height: 700px;
-width: 1000px;
+  margin: 0 auto;
+  border:0;
+  display: block;
+  height: auto;
+  max-width: 100%;
 }
 
-.headline-imgage{
+.headline-image{
   margin: 0 auto;
-  text-align: center;
+  border:0;
+  display: block;
+  height: auto;
+  max-width: 100%;
 }
+
+blockquote{
+  font-family: Georgia, serif;
+  font-size: 24px;
+  font=style: italic;
+  color: green;
+  margin-top:15px;
+  margin-bottom:15px;
+  margin-left: 50px;
+  padding left: 15px;
+  border-left:4px solid #ccc;
+
+.caption{
+    color:gray;
+    font-size:15px;
+  }
+
+.related-items{
+    font-family: Georgia, serif;
+    padding: 15px;
+    margin-bottom: 15px;
+
+  }
+
+  .links{
+    padding:5px;
+  }
