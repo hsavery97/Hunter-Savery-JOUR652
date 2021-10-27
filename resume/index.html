@@ -21,7 +21,7 @@
 <img src="Images/Resume Masthead.png" alt="Masthead" class="Masthead">
 
 <!-- Navbar start-->
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<nav class="navbar navbar-expand-lg navbar-light bg-transparent">
  <div class="container-fluid">
    <a class="navbar-brand" href="#">Hunter's Resume</a>
    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -33,10 +33,10 @@
          <a class="nav-link active" aria-current="page" href="#">Links</a>
        </li>
        <li class="nav-item">
-         <a class="nav-link" href="#">Experience</a>
+         <a class="nav-link" href=#experience>Experience</a>
        </li>
        <li class="nav-item">
-         <a class="nav-link disabled" href="#" tabindex="-1"    aria-disabled="true">Education and Skills</a>
+         <a class="nav-link" href=#educationandskills tabindex="-1"    aria-disabled="true">Education and Skills</a>
        </li>
      </ul>
      <form class="d-flex">
@@ -52,25 +52,33 @@
  <div class="row">
    <div class="col">
 
-         <button type="button" class="btn btn-dark">Gnarly</button>
+ <img src="Roundhead.png" class="img-circle" alt="Headshot" width="300px">
+
+     <a class="btn btn-primary" style="background-color: #55acee;" href="#!" role="button"
+       ><i class="fab fa-twitter me-2"></i>Twitter</a
+     >
+
+          <button type="button" class="btn btn-dark">Sound Cloud</button>
    </div>
    <div class="col">
 
-    <button type="button" class="btn btn-dark">Experience</button>
+    <button type="button" class="btn btn-dark">LinkedIn</button>
+
+      <button type="button" class="btn btn-dark">GitHub</button>
    </div>
  </div>
 </div>
 
-<button type="button" class="btn btn-primary">Primary</button>
+
 
 <div id=container>
 
 <div id=name>  Hunter Savery</div>
   <div id=title>Journalist</div><br>
 
-<!--
-  <img src=HunterHeadshot-1.jpg width="300px">
--->
+
+
+
 <ul class=menu>
   <li> <a href="hsavery@umd.edu">Email me</a></li>
   <li> <a href="https://www.linkedin.com/in/huntersavery/">LinkedIn</a></li>
@@ -78,7 +86,7 @@
   <li> <a href="https://github.com/hsavery97">GitHub</a></li>
 </ul>
 
-<div class=sectionheader>  Experience:</div>
+<div class=sectionheader id=experience>  Experience:</div>
   <h3>Strategic Communications and Government Affairs Intern</h3>
   <div class=organization>The Glover Park Group (now Finsbury Glover Herring)</div>
   <div class=date>June-August 2019</div>
@@ -102,7 +110,7 @@
     <div class="container">
      <div class="row">
        <div class="col">
-         <h2>Education</h2>
+         <h2 id=educationandskills>Education</h2>
          <ul>
            <li>Master of Journalism, University of Maryland, 2022</li>
            <li>Bachelor of Arts, Political Science and Psychology, Trinity College, 2020</li>
