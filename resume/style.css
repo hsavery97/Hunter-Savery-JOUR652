@@ -53,20 +53,6 @@
 }
 
 
-#title{
-  color:#33485e:
-  text-transform: uppercase;
-  font-size: 1.5em;
-  font-weight: 600;
-  text-align: center;
-  margin-top: 20px;
-  margin-bottom: 0;
-  margin-left: 0;
-  margin-right: 0;
-
-}
-
-
 .sectionheader {
   font-family: Futura, Helvetica, sans-serif;
   color: navy;
@@ -121,15 +107,7 @@ h5{
 }
 
 
-#degrees{
-  margin-top: 5px;
-  margin-bottom: 0;
-  margin-left: 0;
-  margin-right: 0;
-
-}
-
-●{
+li{
   font-size: 1em;
 }
 
