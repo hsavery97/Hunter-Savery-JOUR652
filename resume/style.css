@@ -1,3 +1,6 @@
+
+
+
 .Masthead{
   margin: 0 auto;
   width:100%;
@@ -5,15 +8,42 @@
 
 }
 
+#links{
+  padding: 45px;
+}
+
+#headshot{
+  padding-left:45px;
+
+}
+
+.about{
+  padding-top: 100px;
+}
+
 .col {
   text-align: center
 }
 
-BODY {
-  font-family: 'Open Sans', arial, sans-serif;
+.experience {
+  font-family: Georgia, Times, serif;
   font-size: 1em;
   color: #444;
   font-weight: 400;
+  margin: 25px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+
+}
+
+#education-skills{
+  font-family: Georgia, Times, serif;
+  font-size: 1em;
+  color: #444;
+  font-weight: 400;
+  margin: 25px;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 #container{
@@ -49,25 +79,34 @@ BODY {
 
 
 .sectionheader {
-  font-size: 1.5em;
-  text-transform: uppercase;
-  background-color: #33485e;
-  color: #fff;
-  margin-top: 20px;
-  margin-bottom: 10px;
-  margin-right: 0;
-  margin-left: 0;
-  width: 70%;
-  min-width: 300px;
+  font-family: Futura, Helvetica, sans-serif;
+  color: navy;
+  font-size: 50px;
+  font-weight: 400;
+  margin: 25px;
+  padding-top: 15px;
+  padding-bottom: 5px;
+  text-align: center;
 
 }
 
+h2{
+  font-family: Futura, Helvetica, sans-serif;
+  padding-bottom: 10px;
+  color: navy;
+}
 
 h3{
+  font-family: Futura, Helvetica, sans-serif;
   font-weight: 600;
   font-size: 1.5em;
+  color: navy;
+
 }
 
+h5{
+  color:navy;
+}
 
 .organization{
   font-weight: 400;
@@ -92,21 +131,6 @@ h3{
 
 }
 
-.menu{
-  margin-top: 0;
-  margin-bottom: 0;
-  margin-left: 0;
-  margin-right: 0;
-  padding-top: 0;
-  padding-bottom: 0;
-  padding-left: 0;
-  padding-right: 0;
-  text-align: center;
-}
-
-.menu >li{
-  diplay: inline;
-}
 
 #degrees{
   margin-top: 5px;
@@ -118,4 +142,9 @@ h3{
 
 ●{
   font-size: 1em;
+}
+
+#cards{
+  padding-left: 275px;
+  padding-bottom: 50px;
 }

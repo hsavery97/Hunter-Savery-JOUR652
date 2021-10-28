@@ -16,14 +16,15 @@
 
 </head>
 
-<body>
+<body class="color">
+
 <!--I built this myself!-->
 <img src="Images/Resume Masthead.png" alt="Masthead" class="Masthead">
 
 <!-- Navbar start-->
 <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
  <div class="container-fluid">
-   <a class="navbar-brand" href="#">Hunter's Resume</a>
+   <a class="navbar-brand" href="#">Hunter Savery</a>
    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
      <span class="navbar-toggler-icon"></span>
    </button>
@@ -48,45 +49,42 @@
 </nav>
 <!-- Navbar end-->
 
-<div class="container">
- <div class="row">
-   <div class="col">
 
- <img src="Roundhead.png" class="img-circle" alt="Headshot" width="300px">
 
-     <a class="btn btn-primary" style="background-color: #55acee;" href="#!" role="button"
-       ><i class="fab fa-twitter me-2"></i>Twitter</a
-     >
+<div class=container>
+  <div class="row">
+    <div class="col">
+    <img src="Roundhead.png" id="headshot" alt="Headshot" width="400px">
+    </div>
 
-          <button type="button" class="btn btn-dark">Sound Cloud</button>
-   </div>
-   <div class="col">
-
-    <button type="button" class="btn btn-dark">LinkedIn</button>
-
-      <button type="button" class="btn btn-dark">GitHub</button>
-   </div>
- </div>
+    <div class="col">
+      <h2 class="about"> About </h2>
+        <p>Hunter Savery is an audio journalist working on his masters degree at the University of Maryland. Hunter covers a range of topics from politics to the environment. He can be heard on reporting on air on 88.1 WMUC News.</p>
+  </div>
 </div>
 
+<div class=container id="links">
+  <div class="row">
+    <div class="col"><a class="btn btn-primary" style="background-color: #55acee;" href=https://twitter.com/HunterSavery role="button" target="_new"
+        ><i class="fab fa-twitter me-2"></i>Twitter</a
+        ></div>
+      <div class="col">  <a button type="button" class="btn btn-primary" href=https://soundcloud.com/hunter-savery role="button" target="_new">Sound Cloud</button></a></div>
+      <div class="col">  <a button type="button" class="btn btn-primary" href=https://www.linkedin.com/in/huntersavery/ role="button" target="_new">LinkedIn</button></a></div>
+      <div class="col"><a button type="button" class="btn btn-primary" role="button" href=mailto:hsavery@umd.edu target="_new">Email Me</button></a></div>
+
+    </div>
+  </div>
 
 
-<div id=container>
-
-<div id=name>  Hunter Savery</div>
-  <div id=title>Journalist</div><br>
 
 
 
+<div class="container-fluid">
 
-<ul class=menu>
-  <li> <a href="hsavery@umd.edu">Email me</a></li>
-  <li> <a href="https://www.linkedin.com/in/huntersavery/">LinkedIn</a></li>
-  <li> <a href="https://twitter.com/HunterSavery">Twitter</a></li>
-  <li> <a href="https://github.com/hsavery97">GitHub</a></li>
-</ul>
 
-<div class=sectionheader id=experience>  Experience:</div>
+<h2 class=sectionheader id=experience>  Experience</h2>
+
+<div class="experience">
   <h3>Strategic Communications and Government Affairs Intern</h3>
   <div class=organization>The Glover Park Group (now Finsbury Glover Herring)</div>
   <div class=date>June-August 2019</div>
@@ -95,7 +93,7 @@
   <h3>Global Ambassador</h3>
 <div class=organization>Trinity College Rome Campus</div>
   <div class=date>January-June 2019</div>
-  <p class=description>I organized and executed marketing and promotion of Trinity College’s Rome Campus.I lead student outreach, including tabling, recruitment emailing and in-class presentations. With coworkers, I planned and staffed promotional events, informational sessions and new student orientations. I created social media and digital storytelling content, and managed Rome Campus social media accounts.</p>
+  <p class=description>I organized and executed marketing and promotion of Trinity College’s Rome Campus. I lead student outreach, including tabling, recruitment emailing and in-class presentations. With coworkers, I planned and staffed promotional events, informational sessions and new student orientations. I created social media and digital storytelling content, and managed Rome Campus social media accounts.</p>
 
   <h3>Field and Communications Organizer</h3>
 <div class=organization>Alex Tiktinsky for State Senate</div>
@@ -107,10 +105,13 @@
   <div class=date>January 2017-December 2019</div>
   <p class=description>I managed and guided writers. I assigned articles and edited them for content and style. I published weekly articles and contributed to the paper’s editorials.</p>
 
-    <div class="container">
+  </div>
+</div>
+
+    <div class="container" id="education-skills">
      <div class="row">
        <div class="col">
-         <h2 id=educationandskills>Education</h2>
+         <h2>Education</h2>
          <ul>
            <li>Master of Journalism, University of Maryland, 2022</li>
            <li>Bachelor of Arts, Political Science and Psychology, Trinity College, 2020</li>
@@ -132,8 +133,33 @@
          </div>
      </div>
     </div>
+</div>
 
+</div>
+<div class="container" id="cards">
+  <div class="row">
+    <div class="col">
+      <div class="card" style="width: 18rem;">
+      <img class="card-img-top" src=Images/radio.jpg alt="radio image">
+      <div class="card-body">
+        <h5 class="card-title">Radio Stories</h5>
+        <p class="card-text">Listen to my previous on-air reporting.</p>
+        <a href=https://soundcloud.com/hunter-savery target="_new" class="btn btn-primary">Listen Now</a>
+      </div>
+    </div>
+    </div>
+    <div class="col">
+      <div class="card" style="width: 18rem;">
+    <img class="card-img-top" src=Images/twitter.jpg alt="twitter image">
+    <div class="card-body">
+      <h5 class="card-title">Tweets</h5>
+      <p class="card-text">Keep up with my reporting on Twitter.</p>
+      <a href=https://twitter.com/HunterSavery target="_new" class="btn btn-primary">My Profile</a>
+    </div>
+  </div>
 
+    </div>
+  </div>
 </div>
 
   </body>
