@@ -1,0 +1,188 @@
+.nav-logo{
+  color: #fff;
+  margin: 0 auto;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.red{
+  color:#FF0A08;
+}
+
+.hero-container{
+  position:relative;
+  text-align: center;
+  color: #fff;
+}
+
+.hero-image{
+  width:100%;
+
+}
+
+.overlay{
+  position:absolute;
+  top:30%;
+  width: 100%;
+  background: #FF0A08;
+  opacity:.7;
+}
+
+.hero-head{
+  font-family:'Georgia', serif;
+  font-size:5em;
+  color: #000;
+  margin: 0 auto;
+  padding-bottom: 10px;
+
+}
+
+.sub-head{
+  font-family: 'Montserrat', sans-serif;
+  font-size: .25em;
+
+
+}
+
+.headline{
+  font-size: 3em;
+  font-weight: 700;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  color: #FF0A08;
+  letter-spacing: 2px;
+
+}
+
+.byline{
+  font-size: 1em;
+  text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+
+}
+
+.intro{
+  font-size: 2em;
+  text-transform: uppercase;
+  font-family: 'Georgia', serif;
+  color:#FF0A08;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.section-head{
+  font-size: 2em;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  color:#FF0A08;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 3px;
+
+}
+
+.body-image{
+  margin: 0 auto;
+  border:0;
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+.quote{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3em;
+  font-weight: 700;
+  text-align: left;
+  font-style: italic;
+  padding: 15px 0 15px 0;
+  border-top:.1em solid #000;
+  border-bottom:.1em solid #000;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin: 0 auto;
+
+}
+
+.quote-attribution{
+  font-size: .5em;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
+  text-align: left;
+  color: #000;
+
+}
+
+.sidebar{
+  border-top:.25em solid #FF0A08;
+  border-bottom:.25em solid #FF0A08;
+  border-left:.25em solid #FF0A08;
+  border-right:.25em solid #FF0A08;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width:65%;
+  margin: 0 auto;
+  padding: 30px;
+  text-align: center;
+}
+
+.sidebar-title{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.25em;
+  margin: 0 auto;
+  text-align: center;
+  font-weight:700;
+  letter-spacing: 3px;
+  }
+
+.sidebar-text{
+  font-family: 'Georgia', serif;
+  line-height: 180%;
+  font-weight:500;
+  text-align:left;
+
+}
+
+p{
+  font-family: 'Georgia', serif;
+  line-height: 180%;
+}
+
+.image{
+  margin: 0 auto;
+  border:0;
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+.caption{
+    color:gray;
+    font-size:15px;
+    margin: 0 auto;
+    width: 75%;
+    padding: 20px;
+  }
+
+.footer{
+  text-align: left;
+}
+
+@media(max-width:650px){
+
+  p{
+  padding-left: 20px;
+  padding-right: 10px;}
+
+.hero-head{
+  font-size:1.5em;
+
+}
+
+  .quote{
+    font-size: 1.5em;
+  }
+
+
+}
