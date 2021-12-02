@@ -24,6 +24,24 @@ color:#fff;
 
 }
 
+.container{
+  width:50%;
+}
+
+video#bgvideo {
+  position: relative;
+  top: 75%;
+  left: 50%;
+  width: 100%;
+  z-index: -100;
+  -ms-transform: translateX(-50%) translateY(0%);
+  -moz-transform: translateX(-50%) translateY(0%);
+  -webkit-transform: translateX(-50%) translateY(0%);
+  transform: translateX(-50%) translateY(0%);
+  background: url(placeholder.jpg) no-repeat;
+  background-size: cover;
+}
+
 .overlay{
   position:absolute;
   top:55%;
