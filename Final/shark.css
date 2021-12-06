@@ -94,7 +94,7 @@ background-color:#012736;
 .intro{
   font-size: 2em;
   text-transform: uppercase;
-  font-family: 'Bebas Neue', serif;
+  font-family: 'Bebas Neue', sans-serif;
   color:#C40000;
   font-weight: 700;
   letter-spacing: 2px;
@@ -120,14 +120,14 @@ background-color:#012736;
 }
 
 .quote{
-  font-family: 'Montserrat', sans-serif;
-  font-size: 3em;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 2.5em;
   font-weight: 700;
   text-align: left;
   font-style: italic;
   padding: 15px 0 15px 0;
-  border-top:.1em solid #fff;
-  border-bottom:.1em solid #fff;
+  border-top:.05em solid #FF0A08;
+  border-bottom:.05em solid #FF0A08;
   margin-top: 20px;
   margin-bottom: 20px;
   margin: 0 auto;
