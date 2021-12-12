@@ -119,6 +119,15 @@ background-color:#012736;
   max-width: 100%;
 }
 
+.tall-image{
+  margin: 0 auto;
+  border:0;
+  display: block;
+  height: 65%;
+  max-width: 65%;
+
+}
+
 .quote{
   font-family: 'Bebas Neue', sans-serif;
   font-size: 2.5em;
