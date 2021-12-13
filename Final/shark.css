@@ -203,6 +203,27 @@ p{
     padding: 20px;
   }
 
+.links{
+      padding:5px;
+    }
+
+.links a:link {
+  color: #D1110A;
+}
+
+.links a:visited{
+  color: pink;
+}
+
+.links a:hover{
+  color: green;
+}
+
+.link a:active{
+  color:#D1110A;
+}
+
+
 .footer{
   text-align: left;
 }
