@@ -84,7 +84,7 @@ background-color:#012736;
 }
 
 .byline{
-  font-size: 1em;
+  font-size: 1.5em;
   text-transform: uppercase;
     font-family: 'Montserrat', sans-serif;
     text-align: left;
@@ -216,7 +216,7 @@ p{
 }
 
 .links a:hover{
-  color: green;
+  color: lightblue;
 }
 
 .link a:active{
@@ -228,7 +228,21 @@ p{
   text-align: left;
 }
 
-@media(max-width:650px){
+
+@media(max-width:1200px){
+  .hero-head{
+    font-size:2.5em;}
+
+  .headline{
+    font-size:2.5em;
+  }
+
+  .section-head{
+    font-size:1.5em;
+  }
+}
+
+@media(max-width:700px){
 
   p{
   padding-left: 20px;
@@ -239,8 +253,17 @@ p{
 
 }
 
+.section-head{
+  font-size:1.5em;
+}
+
   .quote{
     font-size: 1.5em;
+  }
+
+  .headline{
+    font-size:1.5em;
+
   }
 
 
