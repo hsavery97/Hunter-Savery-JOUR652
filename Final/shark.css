@@ -119,14 +119,6 @@ background-color:#012736;
   max-width: 100%;
 }
 
-.tall-image{
-  margin: 0 auto;
-  border:0;
-  display: block;
-  height: 65%;
-  max-width: 65%;
-
-}
 
 .quote{
   font-family: 'Bebas Neue', sans-serif;
@@ -199,7 +191,7 @@ p{
     color:gray;
     font-size:1em;
     text-align: left;
-    width: 75%;
+    width: 100%;
     padding: 20px;
   }
 
@@ -240,6 +232,10 @@ p{
   .section-head{
     font-size:1.5em;
   }
+
+  .caption{
+    font-size:1em;
+  }
 }
 
 @media(max-width:700px){
@@ -264,6 +260,11 @@ p{
   .headline{
     font-size:1.5em;
 
+  }
+
+  .caption{
+    font-size:.8em;
+    margin: 0 auto;
   }
 
 
