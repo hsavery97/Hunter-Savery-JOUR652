@@ -241,16 +241,17 @@ p{
 @media(max-width:700px){
 
   p{
-  padding-left: 15px;
-  padding-right: 8px;}
+  padding-left: 7px;
+  padding-right: 3px;}
 
 .hero-head{
   font-size:1.3em;
+  letter-spacing:4px;
 
 }
 
 .section-head{
-  font-size:1.3em;
+  font-size:1em;
 }
 
 .byline{
@@ -262,17 +263,17 @@ p{
   }
 
   .headline{
-    font-size:1.5em;
+    font-size:1.6em;
 
   }
 
   .caption{
-    font-size:.8em;
+    font-size:.7em;
     margin: 0 auto;
   }
 
 .nav-logo{
-  font-size:1em;
+  font-size:.65em;
 }
 
 }
